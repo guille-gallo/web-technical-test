@@ -1,0 +1,33 @@
+@layer components {
+  .btn-primary {
+    @apply w-[104px] h-12 bg-[var(--brand-green)] text-[var(--text-white)] rounded-full hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--brand-green)] focus:ring-opacity-50 font-inter text-sm-medium font-medium;
+  }
+
+  .btn-secondary {
+    @apply w-[104px] h-12 bg-[var(--border)] text-[var(--settings-text)] rounded-full cursor-not-allowed font-inter text-sm-medium font-medium;
+  }
+
+  .btn-mobile {
+    @apply w-[100px] h-10 rounded-full text-xs;
+  }
+
+  .search-input {
+    @apply bg-transparent border-none focus:outline-none px-4 py-2 font-inter text-sm-regular font-regular;
+  }
+
+  .vehicle-info-container {
+    @apply fixed md:absolute bottom-0 md:bottom-auto md:top-24 left-0 md:left-6 right-0 md:right-auto z-20 bg-white p-4 rounded-t-lg md:rounded-lg shadow-md w-full md:w-64;
+  }
+
+  .vehicle-stat {
+    @apply md:mb-1;
+  }
+
+  .vehicle-stat-label {
+    @apply font-inter text-base-regular font-regular;
+  }
+
+  .vehicle-stat-value {
+    @apply font-inter text-base-semibold font-semibold;
+  }
+}

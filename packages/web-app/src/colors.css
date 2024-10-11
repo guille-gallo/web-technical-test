@@ -1,0 +1,17 @@
+:root {
+    /* Main colors from Figma: */
+    --brand-green: #0B9D8E;
+    --success-green: #17B26A;
+    --danger-error: #F04438;
+    --text-primary: #475467;
+    --text-white: #FFFFFF;
+    --border: #DCE0E6;
+  
+    --maintenance-bg: #FEF3F2;
+    --available-bg: #ECFDF3;
+    --booked-bg: #F2F4F7;
+  
+    --maintenance-text: var(--danger-error);
+    --booked-text: var(--text-primary);
+    --settings-text: var(--text-primary);
+}
